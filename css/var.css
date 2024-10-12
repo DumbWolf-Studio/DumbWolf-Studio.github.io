@@ -26,3 +26,11 @@ body{
     color: var(--navtextcolor);
     background-color: #ffffff;
 }
+
+.body-fix {
+    display: grid;
+    position: relative;
+    justify-items: center; 
+    place-content: center; 
+    min-height: 100vh;
+}
